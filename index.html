@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Crumbs Bakery &amp; Caf&eacute;</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Sweet <span class="script">Crumbs</span></a>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btn-header" href="contact.html">Visit us</a>
+    <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<main>
+  <section class="hero wrap">
+    <p class="ticket">No. 01 &nbsp;&mdash;&nbsp; Fresh from the oven</p>
+    <h1>Baked before you're awake. <em>Usually</em> gone by noon.</h1>
+    <p class="hero-sub">A small corner bakery on Mill Lane, pulling sourdough and pastries out of the oven from 6am &mdash; and pouring the coffee to go with them.</p>
+    <div class="hero-actions">
+      <a class="btn" href="contact.html">Find us</a>
+      <a class="btn btn-ghost" href="about.html">Our story</a>
+    </div>
+  </section>
+
+  <section class="wrap specials-section">
+    <p class="ticket">No. 02 &nbsp;&mdash;&nbsp; Today's specials</p>
+    <h2>What's in the case right now</h2>
+
+    <div class="slider" id="specials-slider">
+      <div class="slider-track" id="slider-track">
+        <article class="slide">
+          <p class="slide-tag">Fresh today</p>
+          <h3>Brown Butter Croissant</h3>
+          <p>Laminated over three days, finished with a brown-butter glaze while still warm.</p>
+          <p class="slide-price">$4.50</p>
+        </article>
+        <article class="slide">
+          <p class="slide-tag">Weekend only</p>
+          <h3>Sourdough Cinnamon Roll</h3>
+          <p>Naturally leavened dough, brown sugar swirl, cream cheese icing. Gone by 9.</p>
+          <p class="slide-price">$5.00</p>
+        </article>
+        <article class="slide">
+          <p class="slide-tag">House favourite</p>
+          <h3>Fig &amp; Walnut Loaf</h3>
+          <p>Dense, dark, and built to be sliced thin and toasted the next morning.</p>
+          <p class="slide-price">$8.00</p>
+        </article>
+        <article class="slide">
+          <p class="slide-tag">New this month</p>
+          <h3>Salted Honey Tart</h3>
+          <p>Shortcrust, whipped honey filling, a finish of flaky sea salt.</p>
+          <p class="slide-price">$6.50</p>
+        </article>
+      </div>
+      <button class="slider-btn slider-prev" id="slider-prev" aria-label="Previous special">&#8249;</button>
+      <button class="slider-btn slider-next" id="slider-next" aria-label="Next special">&#8250;</button>
+      <div class="slider-dots" id="slider-dots"></div>
+    </div>
+  </section>
+
+  <section class="wrap why-row">
+    <article class="why-card">
+      <p class="ticket">No. 03</p>
+      <h2>Baked daily, sold daily</h2>
+      <p>Nothing goes in the freezer. What's not sold by close goes to the shelter two doors down, not into tomorrow's case.</p>
+    </article>
+    <article class="why-card">
+      <p class="ticket">No. 04</p>
+      <h2>Flour from Miller &amp; Sons</h2>
+      <p>Stone-ground twenty minutes up the road. We've used the same mill since we opened.</p>
+    </article>
+    <article class="why-card">
+      <p class="ticket">No. 05</p>
+      <h2>A corner to sit in</h2>
+      <p>Six tables, good light, and no rule against staying for the whole pot of coffee.</p>
+    </article>
+  </section>
+
+  <section class="wrap quote-block">
+    <blockquote>
+      "The kind of bakery you plan your morning route around."
+      <cite>&mdash; a regular, most Saturdays</cite>
+    </blockquote>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>Sweet Crumbs Bakery &amp; Caf&eacute; &middot; 9 Mill Lane</p>
+    <p class="footer-hours">Open Tue&ndash;Sun, 6am&ndash;3pm</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

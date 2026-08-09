@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &mdash; Sweet Crumbs Bakery &amp; Caf&eacute;</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Sweet <span class="script">Crumbs</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a class="btn btn-header" href="contact.html">Visit us</a>
+    <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<main>
+  <section class="wrap page-head">
+    <p class="ticket">No. 07 &nbsp;&mdash;&nbsp; Get in touch</p>
+    <h1>Order ahead, ask a question, or just say hello.</h1>
+    <p class="hero-sub">Planning to grab a dozen pastries for the office, or want to know if we do gluten-free? Send a note &mdash; we reply most days by evening.</p>
+  </section>
+
+  <section class="wrap contact-grid">
+    <form id="contact-form" class="contact-form" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name">
+        <span class="error-msg" id="name-error"></span>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email">
+        <span class="error-msg" id="email-error"></span>
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Order size, date, any allergies we should know about..."></textarea>
+        <span class="error-msg" id="message-error"></span>
+      </div>
+
+      <button type="submit" class="btn">Send message</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="contact-info">
+      <h2>Find us</h2>
+      <p>9 Mill Lane<br>Riverside, RS1 2QP</p>
+      <h2>Hours</h2>
+      <p>Tuesday&ndash;Sunday, 6am&ndash;3pm<br>Closed Mondays</p>
+      <h2>Phone</h2>
+      <p>01632 960 481</p>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>Sweet Crumbs Bakery &amp; Caf&eacute; &middot; 9 Mill Lane</p>
+    <p class="footer-hours">Open Tue&ndash;Sun, 6am&ndash;3pm</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
